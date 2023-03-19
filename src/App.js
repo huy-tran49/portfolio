@@ -10,10 +10,17 @@ function App () {
   return (
     <>
       <Row>
-        <Col sm={2}>
+        <Col sm={1}>
           <Navigation />
         </Col>
-        <Col>
+        <Col className='border-l-2 h-max ml-8 pl-20'>
+          {/* <div>
+          <About />
+          <br />
+          <Project/>
+          <br />
+          <Contact/>  
+          </div> */}
           <About />
           <br />
           <Project/>
