@@ -1,5 +1,4 @@
 import { Nav } from 'react-bootstrap'
-import { HiHome} from 'react-icons/hi'
 import { MdWork, MdEmail } from 'react-icons/md'
 import { IoMdPerson } from 'react-icons/io'
 import './navbar.css'
