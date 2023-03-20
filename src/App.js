@@ -14,13 +14,6 @@ function App () {
           <Navigation />
         </Col>
         <Col className='border-l-2 h-max ml-8 pl-20'>
-          {/* <div>
-          <About />
-          <br />
-          <Project/>
-          <br />
-          <Contact/>  
-          </div> */}
           <About />
           <br />
           <Project/>
