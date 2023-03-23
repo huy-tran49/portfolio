@@ -1,4 +1,4 @@
-import { Row, Col } from "react-bootstrap"
+import { Row, Col, Button } from "react-bootstrap"
 import ImageSlider from "./ImageSlider"
 
 const Project = () => {
@@ -30,9 +30,9 @@ const Project = () => {
     return (
         <>
             <div className="mt-5">
-            <h2 className='projects text-5xl font-bold' id='project'>Projects</h2>
-                <div>
-                    <h3 className='text-3xl font-bold'>Ballislife</h3>
+            <h2 className='projects text-5xl font-bold mb-5' id='project'>Projects</h2>
+                <div className="mb-5">
+                    <h3 className='text-3xl font-bold mb-3'>Ballislife</h3>
                     <Row>
                         <Col>
                             <div style={containerStyles}>
@@ -40,15 +40,16 @@ const Project = () => {
                             </div>
                         </Col>
                         <Col>
-                            https://huy-tran49.github.io/Ball-is-life/
+                            <Button onClick={()=> window.open('https://huy-tran49.github.io/Ball-is-life/', '_blank')}>Project</Button>
+                            
                             <p>
                                 Words typing game that animate shooting basketballs when a user typed a word correctly.
                             </p>
                         </Col>
                     </Row>
                 </div>
-                <div>
-                    <h3 className='text-3xl font-bold'>NBA stats tracker</h3>
+                <div className="mb-5">
+                    <h3 className='text-3xl font-bold mb-3'>NBA stats tracker</h3>
                     <Row>
                         <Col>
                             <div style={containerStyles}>
@@ -56,7 +57,8 @@ const Project = () => {
                             </div>
                         </Col>
                         <Col>
-                            https://nba-stats-tracker.fly.dev/
+                            <Button onClick={()=> window.open('https://nba-stats-tracker.fly.dev/', '_blank')}>Project</Button>
+                            
                             <p>
                                 An app where a user can tracker multiple NBA player stats. Data are being pull from an external API.
                             </p>
@@ -64,7 +66,7 @@ const Project = () => {
                     </Row>
                 </div>
                 <div>
-                    <h3 className='text-3xl font-bold'>Courtdate</h3>
+                    <h3 className='text-3xl font-bold mb-3'>Courtdate</h3>
                     <Row>
                         <Col>
                         <div style={containerStyles}>
@@ -72,7 +74,8 @@ const Project = () => {
                         </div>
                         </Col>
                         <Col>
-                            https://courtdate.netlify.app/
+                            <Button onClick={()=> window.open('https://courtdate.netlify.app/', '_blank')}>Project</Button>
+                            
                             <p>
                                 A basketball court finding app. Users can add a basketball court to the app for others to rate, comment. Users can upload pictures of the court, add location, and see address of the basketball court on a map.
                             </p>
