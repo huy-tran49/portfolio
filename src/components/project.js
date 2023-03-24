@@ -41,6 +41,7 @@ const Project = () => {
                         </Col>
                         <Col>
                             <Button onClick={()=> window.open('https://huy-tran49.github.io/Ball-is-life/', '_blank')}>Project</Button>
+                            <Button onClick={()=> window.open('https://github.com/huy-tran49/Ball-is-life', '_blank')}>Code</Button>
                             
                             <p>
                                 Words typing game that animate shooting basketballs when a user typed a word correctly.
@@ -58,6 +59,7 @@ const Project = () => {
                         </Col>
                         <Col>
                             <Button onClick={()=> window.open('https://nba-stats-tracker.fly.dev/', '_blank')}>Project</Button>
+                            <Button onClick={()=> window.open('https://github.com/huy-tran49/nba-stats-tracker', '_blank')}>Code</Button>
                             
                             <p>
                                 An app where a user can tracker multiple NBA player stats. Data are being pull from an external API.
@@ -75,6 +77,7 @@ const Project = () => {
                         </Col>
                         <Col>
                             <Button onClick={()=> window.open('https://courtdate.netlify.app/', '_blank')}>Project</Button>
+                            <Button onClick={()=> window.open('https://github.com/huy-tran49/FrontEndProject3', '_blank')}>Project</Button>
                             
                             <p>
                                 A basketball court finding app. Users can add a basketball court to the app for others to rate, comment. Users can upload pictures of the court, add location, and see address of the basketball court on a map.
