@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <br />
                     <section>
-                        <p>
+                        <p className="text-xl font-bold">
                             Hello, I'm a software engineer and basketball enthusiast locate in Fairfax, Virginia. Previously worked in IT, I'm looking to combine my passion in technology to solve real world issues.
                         </p>
                     </section>
