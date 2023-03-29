@@ -84,7 +84,9 @@ const Project = () => {
                             <Button className="mb-4" onClick={()=> window.open('https://github.com/huy-tran49/FrontEndProject3', '_blank')}>Code</Button>
                             
                             <p className="text-xl font-bold">
-                                A basketball court finding app. Users can add a basketball court to the app for others to rate, comment. Users can upload pictures of the court, add location, and see address of the basketball court on a map.
+                                A basketball court finding app. Users can add a basketball court to the app for others to rate, comment. Users can upload pictures of the court, add location, and see address of the basketball court on a map. 
+                                <br />
+                                Cloudinary API for image upload and MapBox API for map, address, and location.
                                 <br /><br />
                                 Technology: HTML, CSS, Javascript, React, MongoDB, Express, Node.JS
                             </p>
