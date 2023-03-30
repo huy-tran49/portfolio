@@ -8,8 +8,8 @@ const About = () => {
                 <h2 className='about text-5xl font-bold' id="about">Huy Tran</h2>
                 <br />
                 <div className="flex flex-row gap-20 justify-center">
-                    <Nav.Link target="_blank" href="https://github.com/huy-tran49"><BsGithub size={30}/></Nav.Link>
-                    <Nav.Link target="_blank" href="https://www.linkedin.com/in/huy-tran-5278b6126/"><BsLinkedin size={30}/></Nav.Link>
+                    <Nav.Link className='hover:scale-125' target="_blank" href="https://github.com/huy-tran49"><BsGithub size={30}/></Nav.Link>
+                    <Nav.Link className='hover:scale-125' target="_blank" href="https://www.linkedin.com/in/huy-tran-5278b6126/"><BsLinkedin size={30}/></Nav.Link>
                 </div>
                 <br />
                     <section>

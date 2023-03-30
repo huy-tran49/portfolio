@@ -40,7 +40,7 @@ const Project = () => {
                             </div>
                         </Col>
                         <Col>
-                            <Button className="mb-4" onClick={()=> window.open('https://huy-tran49.github.io/Ball-is-life/', '_blank')}>Project</Button>
+                            <Button className="mb-4 mr-2" onClick={()=> window.open('https://huy-tran49.github.io/Ball-is-life/', '_blank')}>Project</Button>
                             <Button className="mb-4" onClick={()=> window.open('https://github.com/huy-tran49/Ball-is-life', '_blank')}>Code</Button>
                             
                             <p className="text-xl font-bold">
@@ -60,7 +60,7 @@ const Project = () => {
                             </div>
                         </Col>
                         <Col>
-                            <Button className="mb-4" onClick={()=> window.open('https://nba-stats-tracker.fly.dev/', '_blank')}>Project</Button>
+                            <Button className="mb-4 mr-2" onClick={()=> window.open('https://nba-stats-tracker.fly.dev/', '_blank')}>Project</Button>
                             <Button className="mb-4" onClick={()=> window.open('https://github.com/huy-tran49/nba-stats-tracker', '_blank')}>Code</Button>
                             
                             <p className="text-xl font-bold">
@@ -80,7 +80,7 @@ const Project = () => {
                         </div>
                         </Col>
                         <Col>
-                            <Button className="mb-4" onClick={()=> window.open('https://courtdate.netlify.app/', '_blank')}>Project</Button>
+                            <Button className="mb-4 mr-2" onClick={()=> window.open('https://courtdate.netlify.app/', '_blank')}>Project</Button>
                             <Button className="mb-4" onClick={()=> window.open('https://github.com/huy-tran49/FrontEndProject3', '_blank')}>Code</Button>
                             
                             <p className="text-xl font-bold">
