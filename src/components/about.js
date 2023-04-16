@@ -14,7 +14,7 @@ const About = () => {
                 <br />
                     <section>
                         <p className="text-xl font-bold">
-                            Hello, I'm a software engineer and basketball enthusiast locate in Fairfax, Virginia. Previously worked in IT, I'm looking to combine my passion in technology to solve real world issues.
+                            Hello, I'm a software engineer and basketball enthusiast located in Fairfax, Virginia. Previously, I worked in IT, and now I'm looking to combine my passion for technology to solve real-world issues.
                         </p>
                     </section>
         
