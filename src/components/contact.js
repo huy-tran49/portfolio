@@ -3,7 +3,7 @@ import { Button, Form } from "react-bootstrap"
 const Contact = () => {
     return (
         <>
-            <div className="mt-5">
+            <div className="mt-64">
                 <h2 className='contact text-5xl font-bold' id='contact'>Contact</h2>
                 <div className="contact-form flex grow mt-10 justify-center">
                     <Form action="https://getform.io/f/437fc3ae-d040-4dc1-8553-dd14b5616918" method="POST">

@@ -4,8 +4,8 @@ import { BsGithub, BsLinkedin } from 'react-icons/bs'
 const About = () => {
     return (
         <>  
-            <div className="mt-5">
-                <h2 className='about text-5xl font-bold' id="about">Huy Tran</h2>
+            <div className="pt-20" id="about">
+                <h2 className='about text-5xl font-bold'>Huy Tran</h2>
                 <br />
                 <div className="flex flex-row gap-20 justify-center">
                     <Nav.Link className='hover:scale-125' target="_blank" href="https://github.com/huy-tran49"><BsGithub size={30}/></Nav.Link>
