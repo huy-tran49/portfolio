@@ -6,11 +6,11 @@ import './navbar.css'
 const Navigation = () => {
   return (
     <>
-      <div className='sticky top-0 left-0 right-0 bg-black h-20 z-10'>
-        <ul className='inline-flex'>
-          <li><Nav.Link className='hover:scale-125' href="#about"><IoMdPerson size={40}/>About</Nav.Link></li>
-          <li><Nav.Link className='hover:scale-125' href="#project"><MdWork size={40}/>Projects</Nav.Link></li>
-          <li><Nav.Link className='hover:scale-125' href="#contact"><MdEmail size={40}/>Contact</Nav.Link></li>
+      <div className='sticky flex top-0 left-0 right-0 bg-black h-20 z-10'>
+        <ul className='flex items-center justify-end'>
+          <li className='m-6' ><Nav.Link className='hover:scale-125' href="#about"><IoMdPerson size={40}/>About</Nav.Link></li>
+          <li className='m-6'><Nav.Link className='hover:scale-125' href="#project"><MdWork size={40}/>Projects</Nav.Link></li>
+          <li className='m-6'><Nav.Link className='hover:scale-125' href="#contact"><MdEmail size={40}/>Contact</Nav.Link></li>
         </ul>
       </div>
     </>
