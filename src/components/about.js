@@ -14,7 +14,11 @@ const About = () => {
                 <br />
                     <section>
                         <p className="text-xl font-bold">
-                            Hello, I'm a software engineer and basketball enthusiast located in Fairfax, Virginia. Previously, I worked in IT, and now I'm looking to combine my passion for technology to solve real-world issues.
+                            Hello! I am a driven software engineer and an avid basketball enthusiast based in Fairfax, Virginia. With a background in IT, I have gained valuable experience and now aim to channel my passion for technology towards solving real-world challenges.
+                            <br /><br />
+                            In addition to my professional pursuits, my enthusiasm for basketball fuels my drive for excellence both on and off the court. The same dedication, discipline, and teamwork that I embody in my athletic endeavors also reflect in my approach to software engineering. I believe in the power of collaboration, effective communication, and continuous learning to achieve remarkable results.
+                            <br /><br />
+                            If you're searching for a dynamic software engineer who is not only passionate about technology but also possesses a strong work ethic and a desire to make a difference, I would love to connect with you. Let's collaborate on meaningful projects that push the boundaries of innovation and bring about positive change.
                         </p>
                     </section>
         
