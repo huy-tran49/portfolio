@@ -10,11 +10,12 @@ function App () {
   return (
     <>
       <Navigation />
-      <div className='px-40'>
-          
-          <About />     
-          <Project />      
-          <Contact />
+      <div className='mx-4 sm:mx-28'>
+        
+        <About />     
+        <Project />      
+        <Contact />
+        
       </div>
       <Footer />
     </>
