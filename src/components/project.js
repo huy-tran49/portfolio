@@ -1,11 +1,11 @@
-import { Row, Col, Button } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 import ImageSlider from "./ImageSlider"
 
 const Project = () => {
 
     const containerStyles = {
-        width: "30%",
-        height: "400px",
+        width: "100%",
+        height: "24rem",
         margin: "0 auto",
     }
 
