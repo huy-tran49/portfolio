@@ -4,7 +4,7 @@ import ImageSlider from "./ImageSlider"
 const Project = () => {
 
     const containerStyles = {
-        width: "100%",
+        width: "30%",
         height: "400px",
         margin: "0 auto",
     }
