@@ -10,7 +10,7 @@ function App () {
   return (
     <>
       <Navigation />
-      <div className='sm:mx-20 mx-4'>
+      <div className='sm:mx-20'>
         
         <About />     
         <Project />      
