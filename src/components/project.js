@@ -29,7 +29,7 @@ const Project = () => {
 
     return (
         <>
-            <div className="mt-64">
+            <div className="mt-64 sm:mx-80">
             <h2 className='projects text-5xl font-bold mb-5' id='project'>Projects</h2>
                 <div className="mb-5">
                     <h3 className='text-3xl font-bold mb-3'>Ballislife</h3>
@@ -37,10 +37,12 @@ const Project = () => {
                     <div style={containerStyles}>
                     <ImageSlider slides={projectOneSlides} />
                     </div>
-                
-                    <Button className="mb-4 mr-2" onClick={()=> window.open('https://huy-tran49.github.io/Ball-is-life/', '_blank')}>Project</Button>
+                    
+                    
+                    <Button className="mt-4 mb-4 mr-2" onClick={()=> window.open('https://huy-tran49.github.io/Ball-is-life/', '_blank')}>Project</Button>
                     <Button className="mb-4" onClick={()=> window.open('https://github.com/huy-tran49/Ball-is-life', '_blank')}>Code</Button>
                     
+
                     <p className="text-xl font-bold">
                         Words typing game that animate shooting basketballs when a user typed a word correctly.
                         <br /><br />
@@ -51,13 +53,15 @@ const Project = () => {
                 <div className="mb-5">
                     <h3 className='text-3xl font-bold mb-3'>NBA stats tracker</h3>
             
-                    <div style={containerStyles}>
+                    <div className="w-32" style={containerStyles}>
                         <ImageSlider slides={projectTwoSlides} />
-                    </div>
-                
+                    </div>  
+
+                    <div className="mt-3">
                     <Button className="mb-4 mr-2" onClick={()=> window.open('https://nba-stats-tracker.fly.dev/', '_blank')}>Project</Button>
                     <Button className="mb-4" onClick={()=> window.open('https://github.com/huy-tran49/nba-stats-tracker', '_blank')}>Code</Button>
-                    
+                    </div>
+
                     <p className="text-xl font-bold">
                         An app where a user can tracker multiple NBA player stats. Data are being pull from an external API.
                         <br /><br />
@@ -71,10 +75,12 @@ const Project = () => {
                     <div style={containerStyles}>
                         <ImageSlider slides={projectThreeSlides} />
                     </div>
-                    
+
+                    <div className="mt-3">
                     <Button className="mb-4 mr-2" onClick={()=> window.open('https://courtdate.netlify.app/', '_blank')}>Project</Button>
                     <Button className="mb-4" onClick={()=> window.open('https://github.com/huy-tran49/FrontEndProject3', '_blank')}>Code</Button>
-                    
+                    </div>
+
                     <p className="text-xl font-bold">
                         A basketball court finding app. Users can add a basketball court to the app for others to rate, comment. Users can upload pictures of the court, add location, and see address of the basketball court on a map. 
                         <br />
